@@ -1,0 +1,70 @@
+body{
+    margin: 0%;
+}
+
+.cabecalho{
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    padding: 2px;
+}
+
+.cabecalho-texto{
+    color: white;
+}
+
+.corpo{
+    background-color: rgb(230, 230, 230);
+}
+
+.genios{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.genio-1{
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+.genio-2{
+    background: linear-gradient(180deg, #FE0000 16.66%,
+		#FD8C00 16.66%, 33.32%,
+		#FFE500 33.32%, 49.98%,
+		#119F0B 49.98%, 66.64%,
+		#0644B3 66.64%, 83.3%,
+		#C22EDC 83.3%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+.genio-3{
+    background-color: #0644B3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img{
+    height: 350px;
+    margin-right: 95px;
+    margin-left: 95px;
+    margin-bottom: 21px;
+}
+
+.rodape{
+    background-color: rgb(151, 149, 149);
+    text-align: center;
+    padding: 2px;
+}
+
+.rodape-texto{
+    font-weight: bold;
+}
+
